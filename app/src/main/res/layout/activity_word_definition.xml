@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dict_bg"
+    android:orientation="vertical"
+    tools:context=".WordDefinitionActivity">
+
+
+    <ImageView
+        android:id="@+id/back_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_sixteen"
+        android:background="@drawable/ic_back_main"
+        android:contentDescription="@string/str_back_desc" />
+
+
+    <TextView
+        android:id="@+id/definition_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_size_30"
+        tools:text="@string/word_definition_example" />
+
+
+</LinearLayout>

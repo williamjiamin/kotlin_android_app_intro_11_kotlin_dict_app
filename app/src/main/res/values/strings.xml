@@ -1,0 +1,9 @@
+<resources>
+    <string name="edit_text_str">请输入您需要查询的问题………</string>
+    <string name="button_text_str">搜索乐学偶得知识库</string>
+    <string name="app_logo">偶得智能搜索</string>
+    <string name="app_name">偶得智能搜索</string>
+    <string name="str_back_desc">后退按钮</string>
+    <string name="word_definition_example">这里显示的是查询到的结果这里显示的是查询到的结果这里显示的是查询到的结果这里显示的是查询到的结果这里显示的是查询到的结果这里显示的是查询到的结果这里显示的是查询到的结果</string>
+
+</resources>

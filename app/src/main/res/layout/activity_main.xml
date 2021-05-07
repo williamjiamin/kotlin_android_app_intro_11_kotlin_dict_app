@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dict_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_60"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/logo_text_size"
+        android:text="@string/app_logo"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/word_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_eight"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="@dimen/margin_eight"
+        android:hint="@string/edit_text_str"
+        android:textColorHint="@color/green"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="@dimen/margin_eight"
+        android:textSize="@dimen/text_size_30"
+        android:textColor="@color/green"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_sixteen"
+        android:background="@color/black"
+        android:text="@string/button_text_str"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_size_30"/>
+
+
+
+</LinearLayout>
